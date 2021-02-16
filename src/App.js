@@ -109,7 +109,7 @@ const App = () => {
   let MyVideo;
   if (mystream) {
     MyVideo = (
-      <video playsInline muted ref={myVideo} autoPlay style={{ maxWidth: "100%" }} />
+      <video playsInline ref={myVideo} autoPlay style={{ maxWidth: "100%" }} />
     );
   }
 
@@ -117,7 +117,7 @@ const App = () => {
   let FriendVideo;
   if (friendVideo) {
     FriendVideo = (
-      <video playsInline muted ref={friendVideo} autoPlay style={{ maxWidth: "100%" }} />
+      <video playsInline ref={friendVideo} autoPlay style={{ maxWidth: "100%" }} />
     );
   }
 
