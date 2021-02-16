@@ -6,6 +6,8 @@ function App() {
     <div className="App">
       <h1>
         Hello, Jzen Soft!
+        <hr/>
+        Welcome back!
       </h1>
     </div>
   );
